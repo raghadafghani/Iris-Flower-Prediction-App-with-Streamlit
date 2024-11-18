@@ -15,14 +15,11 @@ Source: Anywhere (or specify your desired source IP range)
 Save the rule.
 
 3. Run the following commands:
-```sudo apt update
-
-
-- `sudo apt-get update
-- `sudo apt upgrade -y
-- `sudo apt install git curl unzip tar make sudo vim wget -y
-sudo apt install git curl unzip tar make sudo vim wget -y
-git clone "Your-repository"
-sudo apt install python3-pip
-pip3 install -r requirements.txt
-
+1. `sudo apt update`
+2. `sudo apt-get update` 
+3. `sudo apt upgrade -y`
+4. `sudo apt install git curl unzip tar make sudo vim wget -y`
+5. `sudo apt install git curl unzip tar make sudo vim wget -y`
+6. `git clone "Your-repository"`
+7. `sudo apt install python3-pip`
+8. `pip3 install -r requirements.txt`
