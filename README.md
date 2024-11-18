@@ -6,7 +6,6 @@ By leveraging the power of cloud computing, I aim to create an efficient, secure
 
 # Conquer the Cloud: Setting Up Your Iris Flower Prediction App on AWS
 Ready to take your Iris flower prediction model to new heights? Follow these steps to deploy your app on an AWS EC2 instance:
-![image](https://github.com/user-attachments/assets/59a7a1e1-49c9-48ff-8f8c-06b008f527ad)
 1. Login to the AWS Console: Access your AWS account and navigate to the EC2 dashboard.
 2. Launch an EC2 Instance: Create a new EC2 instance with the desired specifications to accommodate your application.
 4. Secure Your Instance: Edit the inbound rules for the security group associated with your EC2 instance to allow traffic on port 8501. This will ensure that your Streamlit app can be accessed from the internet.
