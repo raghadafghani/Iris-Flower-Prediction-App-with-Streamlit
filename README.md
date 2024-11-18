@@ -11,7 +11,7 @@ Ready to take your Iris flower prediction model to new heights? Follow these ste
 2. Launch an EC2 Instance: Create a new EC2 instance with the desired specifications to accommodate your application.
 3. Secure Your Instance: Edit the inbound rules for the security group associated with your EC2 instance to allow traffic on port 8501. This will ensure that your Streamlit app can be accessed from the internet.
 4. Set the Stage for Your App: Run the following set of commands to prepare your EC2 instance for the deployment:
-`sudo apt update`\n
+```sudo apt update```
 `sudo apt-get update`
 `sudo apt upgrade -y`
 `sudo apt install git curl unzip tar make sudo vim wget -y`
