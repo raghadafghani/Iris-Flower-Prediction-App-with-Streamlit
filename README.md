@@ -37,7 +37,6 @@ git clone "Your-repository"
 sudo apt install python3-pip
 ```
 
-> [!NOTE]  
 > Inside the ls "repository" 
 
 ```bash
