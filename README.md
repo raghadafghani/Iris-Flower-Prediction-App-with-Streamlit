@@ -13,14 +13,38 @@ Ready to take your Iris flower prediction model to new heights? Follow these ste
    ![image](https://github.com/user-attachments/assets/e65d5fc7-6930-4333-b21d-d2edd954264c)
 
 5. Set the Stage for Your App: Run the following set of commands to prepare your EC2 instance for the deployment:
-```sudo apt update
+```bash
+sudo apt update
+```
+
+```bash
 sudo apt-get update
+```
+
+```bash
 sudo apt upgrade -y
+```
+
+```bash
 sudo apt install git curl unzip tar make sudo vim wget -y
-sudo apt install git curl unzip tar make sudo vim wget -y
+```
+
+
+```bash
 git clone "Your-repository"
+```
+
+```bash
 sudo apt install python3-pip
+```
+
+```bash
 pip3 install -r requirements.txt
+```
+
+```bash
+#Temporary running
+python3 -m streamlit run app.py
 ```
 6. Run Your Streamlit App: Once the setup is complete, navigate to your project directory and launch your Streamlit app using the following command:
 ```streamlit run app.py```
