@@ -41,9 +41,8 @@ sudo apt install python3-pip
 pip3 install -r requirements.txt
 ```
 
-```bash
-#Temporary running
-python3 -m streamlit run app.py
-```
+
 6. Run Your Streamlit App: Once the setup is complete, navigate to your project directory and launch your Streamlit app using the following command:
-```streamlit run app.py```
+```bash
+python3 -m streamlit run test.py
+```
