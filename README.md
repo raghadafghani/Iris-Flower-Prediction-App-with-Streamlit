@@ -19,6 +19,7 @@ sudo apt install git curl unzip tar make sudo vim wget -y
 git clone "Your-repository"
 sudo apt install python3-pip
 pip3 install -r requirements.txt
+```
 9. Run Your Streamlit App: Once the setup is complete, navigate to your project directory and launch your Streamlit app using the following command:
 streamlit run app.py
 Your app will now be accessible from the public IP address of your EC2 instance on port 8501.
