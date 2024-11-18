@@ -1,1 +1,2 @@
 # Iris-Flower-Prediction-App-with-Streamlit
+My primary aim is not solely to develop a prediction model, but to take it a step further by deploying it on an AWS EC2 server. I want to ensure that the model can be accessed and used in real-world scenarios, with the ability to scale as needed. This deployment will allow me to leverage the power of cloud computing for efficient performance, security, and reliability, making the model accessible to a wider audience and facilitating seamless integration with other systems
