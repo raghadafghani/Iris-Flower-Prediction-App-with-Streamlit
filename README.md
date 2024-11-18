@@ -1,25 +1,21 @@
-# Iris-Flower-Prediction-App-with-Streamlit
-My primary aim is not solely to develop a prediction model, but to take it a step further by deploying it on an AWS EC2 server. I want to ensure that the model can be accessed and used in real-world scenarios, with the ability to scale as needed. This deployment will allow me to leverage the power of cloud computing for efficient performance, security, and reliability, making the model accessible to a wider audience and facilitating seamless integration with other systems
+#Unveil the Secrets of the Iris Flowers with ML and Streamlit
+#Embark on a Captivating Journey of Flower Prediction
+As a seasoned data enthusiast, my primary goal is not just to develop a robust prediction model, but to take it a step further by deploying it on an AWS EC2 server. I'm driven by a desire to ensure that this model can be accessed and utilized in real-world scenarios, with the ability to scale as needed to meet the demands of a growing user base.
 
-# Sreps in AWS:
-1. Login with your AWS console and launch an EC2 instance.
+By leveraging the power of cloud computing, I aim to create an efficient, secure, and reliable platform that will make this Iris flower prediction model accessible to a wider audience. This deployment will not only showcase the model's capabilities but also facilitate seamless integration with other systems, opening up a world of possibilities for data-driven decision-making.
 
-2. Edit the inbound rule for the security group associated with your EC2 instance to allow traffic on port 8501:
-Navigate to EC2 Dashboard → Security Groups.
-Select the security group attached to your EC2 instance.
-Click on Inbound rules → Edit inbound rules.
-Add a new rule with the following settings:
-Type: Custom TCP Rule
-Port Range: 8501
-Source: Anywhere (or specify your desired source IP range)
-Save the rule.
+#Conquer the Cloud: Setting Up Your Iris Flower Prediction App on AWS
+Ready to take your Iris flower prediction model to new heights? Follow these steps to deploy your app on an AWS EC2 instance:
 
-3. Run the following commands:
-1. `sudo apt update`
-2. `sudo apt-get update` 
-3. `sudo apt upgrade -y`
-4. `sudo apt install git curl unzip tar make sudo vim wget -y`
-5. `sudo apt install git curl unzip tar make sudo vim wget -y`
-6. `git clone "Your-repository"`
-7. `sudo apt install python3-pip`
-8. `pip3 install -r requirements.txt`
+1. Login to the AWS Console: Access your AWS account and navigate to the EC2 dashboard.
+2. Launch an EC2 Instance: Create a new EC2 instance with the desired specifications to accommodate your application.
+3. Secure Your Instance: Edit the inbound rules for the security group associated with your EC2 instance to allow traffic on port 8501. This will ensure that your Streamlit app can be accessed from the internet.
+4. Set the Stage for Your App: Run the following set of commands to prepare your EC2 instance for the deployment:
+`sudo apt update`
+`sudo apt-get update`
+`sudo apt upgrade -y`
+`sudo apt install git curl unzip tar make sudo vim wget -y`
+`sudo apt install git curl unzip tar make sudo vim wget -y`
+`git clone "Your-repository"`
+`sudo apt install python3-pip`
+`pip3 install -r requirements.txt`
