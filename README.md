@@ -59,3 +59,5 @@ pip3 install -r requirements.txt
 ```bash
 python3 -m streamlit run test.py
 ```
+![image](https://github.com/user-attachments/assets/b318650e-07d4-4fe5-8cf6-9caa5e327683)
+
